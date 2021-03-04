@@ -1,0 +1,31 @@
+﻿<Window x:Class="laba7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba7"
+        mc:Ignorable="d"
+        Background="#c9c2c1"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="night_mode" Content="Night mode" MaxHeight="40" MaxWidth="80" 
+                Background="#FF343434"
+                Foreground="#FFD8D8D8" 
+                Margin="0,10,10,0" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Top" Click="night_mode_Click"/>
+
+        <Button x:Name="day_mode" Content="Day mode" MaxHeight="40" MaxWidth="80" 
+                Background="White"
+                Foreground="#FF363636" 
+                Margin="0,35,15,0" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Top" Click="day_mode_Click"/>
+        <TextBlock x:Name="some_text" HorizontalAlignment="Left" Margin="26,45,0,0" 
+                   Text="International Business Machines Corporation — американська електронна корпорація, один із найбільших світових виробників усіх видів комп'ютерів і програмного забезпечення, один з найбільших провайдерів глобальних інформаційних мереж. Корпорація посідає шосте місце в списку найбільших компаній світу. Штаб-квартира розташована у Армонку, штат Нью-Йорк, США. Історія починається з 19 століття. IBM виробляє та продає апаратне та програмне забезпечення, послуги (хостинг, консалтинг) у сферах від мейнфреймів до нанотехнологій." 
+                   Foreground="Black"
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Top" 
+                   Height="204" Width="622" FontSize="18"/>
+    </Grid>
+</Window>
